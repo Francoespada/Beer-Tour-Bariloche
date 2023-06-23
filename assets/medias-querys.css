@@ -1,0 +1,353 @@
+/*MEDIA & ANIM*/
+
+@media screen and (min-width:425px){
+
+    .logo{
+        left: 45%;
+    }
+
+    .menu-activo-list{
+        font-size: 1.1rem;
+    }
+
+    .hero{
+        height: 80vh;
+    }
+
+    .sobre-tour{
+        margin-top: 0;
+    }
+
+    .conocenos-container{
+        padding-bottom: 5px;
+    }
+
+    .conocenos-img{
+        max-height: 400px;
+    }
+
+    .conocenos-txt p{
+        padding: 0 15%;
+    }
+
+    .conocenos-txt span{
+        font-size: 1.3rem;
+    }
+
+    .contacto-titulo h2::before{
+        bottom:30%;
+    }
+    
+    .contacto-titulo h2::after{
+        bottom: 35%;
+    }
+
+}
+
+@media screen and (min-width:768px){
+
+    .menu{
+        align-items: center;
+    }
+
+    .menu img{
+        height: 80px;
+    }
+
+
+    .hero{
+        height: 100vh;
+    }
+
+    .hero img{
+        transition: .7s ease;
+    }
+
+    .hero-img{
+        object-position: 15%!important;
+    }
+
+    .hero-img-sec{
+        object-position: 50%!important;
+    }
+
+    .cards-container{
+        flex-direction: row;
+        padding: 2%;
+    }
+
+    .conocenos{
+
+        display: flex;
+        align-items: center;
+    }
+
+    .conocenos-container{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .conocenos-txt{
+        width: 100%;
+        padding: 0% 5%;
+    }
+
+    .conocenos-txt span{
+        font-size: 1.1rem;
+    }
+
+    .carousel-inner{
+        height: 100%;
+    }
+
+    .conocenos-car{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conocenos-img{
+        height: auto;
+        max-height: none;
+    }
+
+    .menu{
+        margin-bottom: 0;
+    }
+    
+    .tour-titulo{
+        padding: 5% 0 3% 0;
+    }
+
+    .tour-titulo h2{
+        padding: 3%;
+    }
+
+    .tour-titulo p{
+        padding: 5% 0 3%;
+        font-size: 1.5rem;
+    }
+    
+    .card-tour{
+        height: 370px;
+    }
+
+    .contacto-container{
+        padding: 0 15%;
+        background-position: 100% 100%;
+    }
+
+    .contacto-titulo h2::before{
+        content: '';
+        width: 15%;
+        height: 1px;
+        bottom: 37%;
+        left: 42%;
+
+    }
+    
+    .contacto-titulo h2::after{
+        content: '';
+        width: 20%;
+        height: 1px;
+        bottom: 40%;
+        left: 40%;
+
+    }
+    
+    .social .bx{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (min-width:769px){
+    .logo{
+        visibility: hidden;
+    }
+    .menu-activo{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero{
+        width: 100%;
+
+    }
+
+    .logo{
+        width: 20%;
+        display: flex;
+        position: absolute;
+        left: 20px;
+    }
+
+    .logo img{
+        max-width: 30%;
+        
+        height: 80px;
+    }
+
+    .toggle-img-active{
+        width: 30%!important;
+    }
+
+    .conocenos-txt{
+        padding: 5% 5%;
+        height: 100%;
+        display: flex;
+        gap: 60px;
+    }
+
+    .conocenos-txt p{
+        font-size: 1.3rem;
+    }
+
+    .conocenos-txt span{
+        font-size: 1.5rem;
+    }
+
+    .card-text h2{
+        font-size: 1.7rem;
+    }
+
+    .card-text p{
+        font-size: 1.1rem;
+        padding: 0 12%;
+    }
+
+    .contacto-titulo h2::before{
+        content: '';
+        width: 14%;
+        height: 1px;
+        bottom: 37%;
+        left: 43%;
+
+    }
+    
+    .contacto-titulo h2::after{
+        content: '';
+        width: 16%;
+        height: 1px;
+        bottom: 40%;
+        left: 42%;
+
+    }
+    
+
+}
+
+@media screen and (min-width:1440px) {
+
+    .hero{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .hero img{
+
+        height: 100%;
+        flex-grow: 1;
+        object-fit: fill;
+        opacity: .8;
+        padding-bottom: 5px;
+    }
+
+    .hero-img-sec{
+        object-fit: cover!important;
+
+    }
+
+    .conocenos{
+        height: 90vh;
+    }
+
+    .conocenos-container{
+        height: 100%;
+    }
+
+    .conocenos-txt h2{
+        padding-bottom: 5%;
+    }
+
+    .conocenos-txt h2::before{
+        width: 45%;
+        left: 28%;
+    }
+    
+    .conocenos-txt h2::after{
+        width: 40%;
+        left: 30%;
+    }
+
+    .conocenos-txt p{
+        font-size: 1.4rem;
+        padding: 0 15%;
+    }
+
+    .conocenos-txt span{
+        padding: 2% 0;
+        font-size: 2rem;
+    }
+
+    .sobre-tour{
+        height: 90vh;
+        margin-bottom: 2%;
+    }
+
+    .tour-titulo{
+        
+        padding: 2% 0 0 0;
+    }
+
+    .tour-titulo p{
+        padding: 5% 0 0 0;
+    }
+
+    .carousel-item{
+        height: 100%!important;
+    }
+
+    .carousel-item img{
+        height: 100%!important;
+    }
+
+    .conocenos-car{
+        height: 100%;
+    }
+
+    .cards-container{
+        padding: 2% 0%;
+        gap: 50px;
+    }
+
+    input, textarea{
+        padding: 2% 1%;
+    }
+
+    .form{
+        padding: 0 20%;
+    }
+
+    .contacto-titulo{
+        padding: 6% 0;
+    }
+
+    .social{
+        padding: 0;
+    }
+}
+
+@keyframes load {
+    0%{
+        filter:blur(3px);
+    }
+    100%{
+        filter:blur(0);
+    }
+}
